@@ -10,6 +10,7 @@
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
+    --photoBg: var(--white);
 }
 
 .dark-theme {
@@ -17,6 +18,7 @@
     --fontColor: var(--white);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
+    --photoBg: var(--green);
 }
 
 body {
@@ -57,8 +59,29 @@ li {
     background-color: var(--btnBg);
 }
 
+.photoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: var(--photoBg);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* display:block makes the div resize to fit the size of the image */
+}
+
+.photoText {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .h-img {
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     /*
     width: 666px;
@@ -66,7 +89,7 @@ li {
 }
 
 .h-img-small {
-    max-width: 25%;
+    max-width: 30%;
     height: auto;
     /*
     width: 222px;
