@@ -2,6 +2,21 @@
     --green: #00FF00;
     --white: #FFFFFF;
     --black: #000000;
+    --pink: #F8C8DC;
+}
+
+.light-theme {
+    --bg: var(--pink);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
 }
 
 body {
@@ -18,10 +33,22 @@ li {
     list-style: square;
 }
 
+#centered-text {
+    text-align: center;
+}
+
+#colourTheme {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    /*display: inline-block-block;*/
+}
+
 .btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
+    /*position: absolute;*/
+    display: inline;
+    /*top: 20px;
+    left: 250px;*/
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -30,16 +57,26 @@ li {
     background-color: var(--btnBg);
 }
 
-.light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
+.h-img {
+    max-width: 50%;
+    height: auto;
+    /*
+    width: 666px;
+    height: 444px; */
 }
 
-.dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
+.h-img-small {
+    max-width: 25%;
+    height: auto;
+    /*
+    width: 222px;
+    height: 111px; */
+}
+
+.v-img {
+    max-height: 50%;
+    max-width: 25%;
+    /*
+    width: 111px;
+    height: 333px; */
 }
