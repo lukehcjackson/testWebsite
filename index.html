@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body class="light-theme">
-    <h1 style="text-align: center;">Luke Jackson Photography Portfolio</h1>
-    <h3 id="centered-text">My name is Luke and I like to take photos</h3>
+    <header>
+        <h1 id="title">Luke Jackson Photography Portfolio</h1>
+        <h3 id="centered-text">My name is Luke and I like to take photos</h3>
+    </header>
+    
     <!--id attribute: used for styling one element -->
     <!--class attribute: used for styling all elements of the same class -->
-    
+    <br>
     <div id="colourTheme">
-        <p>Click this button to change colour theme</p>
-        <button class="btn">Dark</button>
+            <p style="display:inline;">Click this button to change colour theme >>></p>
+            <button class="btn">Dark</button>
     </div>
     <script src="app.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
@@ -34,7 +37,9 @@
             <h2>Taken on 04/09/23</h2>
         </div>
     </div>
+
     <br>
+
     <div class="photoContainer">
         <div class="photoText">
             <h1>This is a photo I took in an arcade in Scarborough.</h1>
@@ -44,8 +49,21 @@
         </div>
         <div class = "h-img">
             <img src = "photos/L3.JPG">
+        </div>   
+    </div>
+
+    <br>
+
+    <div class="photoContainer">
+        <div class="h-img-large">
+            <img src = "photos/L1.JPG">
+            <div class="photoText">
+                <h1 id="centered-text">Diving Belle, Scarborough</h1>
+                <h2 id="centered-text">Camera: Kodak M35</h2>
+                <h2 id="centered-text">Film: Kodak Ultramax 400</h2>
+                <h2 id="centered-text">Taken on 04/09/23</h2>
+            </div>
         </div>
-        
     </div>
 
 </body> 
