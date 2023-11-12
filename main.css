@@ -32,6 +32,39 @@ header {
 
 }
 
+#headerLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space:pre
+}
+
+a {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+ /* unvisited link */
+a:link {
+  color: var(--fontColor);
+}
+
+/* visited link */
+a:visited {
+  color: var(--bg);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: red;
+} 
+
 body {
     background: var(--bg);
     color: var(--fontColor);
