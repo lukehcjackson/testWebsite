@@ -152,8 +152,8 @@ img {
 }
 
 .v-img {
-    max-height: 50%;
-    max-width: 25%;
+    max-height: auto;
+    max-width: 50%;
     /*
     width: 111px;
     height: 333px; */

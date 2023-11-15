@@ -1,12 +1,15 @@
 Photography Portfolio Website
 
 TODO:
-Add more javascript functionality - links
-to other pages (one for each set of photos?)
-Link to my instagram with a little icon
+Add content to other pages
 
+Link to my instagram with a little icon
 Footer for the page
 with instagram link and contact info?
 
 'Dark mode' black should be replaced with almostBlack
 across the site
+
+PHOTOS:
+England: L1 - L7
+Amsterdam: H1, L8 - L13
